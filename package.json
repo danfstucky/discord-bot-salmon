@@ -1,0 +1,21 @@
+{
+  "name": "salmon-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Salmon Squad",
+  "main": "SalmonBot.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node SalmonBot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "danfstucky",
+  "license": "ISC"
+}
