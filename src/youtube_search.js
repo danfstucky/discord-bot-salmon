@@ -13,6 +13,14 @@ function searchYouTube(message) {
         }
         botResponse += `\n**Choose a number between 1 and ${videos.length}.**`;
         message.channel.send(botResponse);
+
+        // Create a filtered message collector to retrieve user response.
+        const filter = m => !isNaN(m.content) && m.content < videos.length+1 && m.content > 0;
+        const collector = message.channel.createMessageCollector(filter);
+        collector.videos = videos;
+        collector.once('collect', function(m) {
+            message.channel.send(`https://www.youtube.com${this.videos[parseInt(m.content) - 1].url}`);
+        });
     });
 }
 

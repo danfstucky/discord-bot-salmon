@@ -21,7 +21,7 @@ class MessageProcessor {
                     !flipcoin - Flip a coin.
                     !roll     - Roll a dice (1 - 100).
                     !rps      - Play Rock/Paper/Scissors with the bot.
-                    !youtube  - Search youtube. Ex: !youtube Linkin Park
+                    !youtube  - Search youtube and play a video. Ex: !youtube Linkin Park
                     !xkcd     - Post a random xkcd comic.
                     !doge     - Obviously required.
                     !nani     - You are already dead.`
