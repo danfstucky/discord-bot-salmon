@@ -12,7 +12,7 @@ const MessageProcessor = require('./src/MessageProcessor');
 
 bot.on('ready', () => {
     logger.info(`Connected. Status: ${bot.status}`);
-    logger.info(`Logged in as: ${bot.user}`);
+    logger.info(`Logged in as: ${bot.user.username}`);
 });
 
 bot.on('message', message => {
