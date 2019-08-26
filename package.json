@@ -10,7 +10,7 @@
     "yt-search": "^0.4.1"
   },
   "devDependencies": {
-    "eslint": "^5.10.0"
+    "eslint": "^6.2.2"
   },
   "scripts": {
     "start": "node SalmonBot.js",
